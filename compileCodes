@@ -1,0 +1,842 @@
+First Kotlin Program
+fun main() {
+  println("Hello, World!")
+}
+
+// Add your code below
+fun main() {
+  println("Coding is fun!")
+}
+
+fun main() {
+  // Write your code below!
+
+println("Just keep swimming!")
+print(15 * 4)
+}
+
+fun main() {
+  // Add your code below
+  println("11/2 - AU military goes to war against local emus.")
+  println("11/4 - Ambush planned by military fails.")
+  println("11/8 - AU military withdraws.")
+
+}
+
+fun main() {
+  //Code prints "Howdy, partner!" to the terminal.
+  /*
+  Nothing yet so far
+  */
+  println("Howdy, partner!") 
+}
+
+fun main() {
+  println("An error a day keeps the programmer away.")
+}
+
+fun main() 
+{
+  //Organize the code below
+    println("Down by the bay")
+    println("Where the watermelons grow,")
+    println("Back to my home")
+    println("I dare not go.");
+    println("For if I do");
+    println("My mother will say")
+    println("Did you ever use an app that taught you how to snap?")
+    println("Down by the bay!")
+     }
+
+DATA TYPES AND VARIABLES
+fun main() {
+  // Write your code below 
+  var todaysDate: String = "08/25/2022" 
+  var currentWeather: String
+  currentWeather = "Sunny"
+  println(currentWeather)
+  println(todaysDate)
+}
+
+fun main() {
+  // Write your code below
+   val pi: Double = 3.14
+   val pi: Double = 3.15
+  pi = 5.5
+}
+
+fun main() {
+  
+  // Declare your variable above 
+var typeTest = "6"
+  // Declare your variable above 
+  print("${typeTest::class.simpleName}") 
+}
+
+USING TEXT VARIABLES
+// Strings 
+
+val landmark = "Statue of Liberty 🗽" 
+val city = "New York"
+val country = "USA" 
+
+// Characters 
+
+var letter = 'A'
+var digit = '1'
+var symbol = '*'
+
+// Fun fact
+
+/* A single emoji is made up of Unicode characters. 
+Thus, it will be interpreted as a String
+and must always be wrapped in double quotes:  */ 
+
+var emoji = "🤓"
+
+
+fun main() {
+  val dog = "Toto"
+  val state = "Kansas"
+  val movie = "The Wizard of Oz"
+
+  // Write your code below 🧙
+
+  println(dog + ", I've a feeling we're not in " + state + " anymore. - " + movie + ", 1939")
+}
+
+fun main() {
+  val plant = "orchid"
+  val potSize = 6 // in inches 
+  val dayNum = 7 
+
+  // Write your code below 🌱
+
+  println("An $plant in a $potSize inch pot must be watered every $dayNum days.") 
+}
+
+fun main() {
+  println("Please type your name and hit Enter.")
+  // Write your code below
+  
+  val myName = readLine()
+  println("Your name is $myName!")
+}
+
+fun main() {
+  var word = "supercalifragilisticexpialidocious"
+  
+  // Write your code below ☂️
+
+  word = word.capitalize()
+  var wordSize = word.length 
+
+  println("$word has $wordSize letters.")
+}
+
+fun main() {
+
+  // Add the correct escape sequences to the text below to achieve the output shown in the instructions 
+
+  print("Dear Learner 👋, I hope you're enjoying the Learn Kotlin course. You've made tremendous progress. Keep going! And remember, Knowledge is power. (Frances Beacon). With love, Codey")
+}
+
+fun main() {
+  println("Dear Learner 👋, \n\nI hope you're enjoying the Learn Kotlin course.\nYou've made tremendous progress. Keep going! And remember, \"Knowledge is power.\" (Frances Beacon). \n\nWith love, \nCodey")
+}
+
+USING NUMBER VARIABLES
+fun main() {
+  // Appetizer 
+  val caesarSalad = 8.50
+  //  Entree 
+  val beefStroganoff = 18
+  // Dessert 
+  val cheesecake = 6
+  // Add your code below ⬇️
+  var total = caesarSalad + beefStroganoff + cheesecake 
+  var tip = 0.15 
+
+  var finalAmount = total * tip + total
+  println(finalAmount)
+}
+
+
+fun main() {
+  var answer1 = 7 - 5 + 4 * 3 
+  var answer2 = (9 - 3) / 2 
+  var answer3 = (6 + 8) + (4 - 7) 
+  println(answer1)
+  println(answer2)
+  println(answer3)
+}
+
+fun main() {
+  var speedOfLight = 186_000
+  // Write your code here 
+  speedOfLight += 282
+
+  var perfectSquare = 32
+  // Write your code here 
+  perfectSquare *= 2
+
+  var sheldonsFavoriteNum = 219
+  // Write your code here 
+  sheldonsFavoriteNum /= 3
+
+  var emergency = 920 
+  // Write your code here 
+  emergency -= 9
+
+  var firstCountingNum = 10 
+  // Write your code here 
+  firstCountingNum %= 5
+
+   println("The speed of light is ${speedOfLight}.")
+  println("A perfect square is ${perfectSquare}.")
+  println("Sheldon's favorite number is ${sheldonsFavoriteNum}.")
+  println("The emergency number in the United States is ${emergency}.")
+  println("The first counting number in programming is ${firstCountingNum}.")
+
+}
+
+fun main() {
+
+  var a = 5 
+  a += 6
+
+  var b = a * 9 
+  var c = b / 3 
+  c++ 
+  
+  var d = c + 8 
+  d %= 4
+  d--
+  // d: 1
+}
+
+fun main() {
+
+  var ceil = Math.ceil(3.5)
+  println(ceil)
+  // Add your notes below
+  var sqrt = Math.sqrt(25.0) 
+  println(sqrt)
+  // Add your notes below
+  var abs = Math.abs(-20) 
+  println(abs)
+  // Add your notes below 
+  var floor = Math.floor(6.9)
+  println(floor)
+  // Add your notes below 
+}
+
+CONDITIONAL EXPRESSIONS
+fun main(){
+  var isTuesday = true
+  // Write your code below
+  
+  if (isTuesday) {
+    println("Take out the trash.")
+  }
+}
+
+fun main() {
+  var saleHappening = false
+  var price: Int
+  // Write your code below
+
+  if (saleHappening) {
+    price = 12
+  } else {
+    price = 15
+  }
+  println("The total is $price dollars.")
+}
+
+fun main() {
+  var d20 = 13
+  // Write your code below
+
+  if (d20 >= 17) {
+    println("The incantation works and the dragon is defeated.")
+  } else {
+    println("The incantation fails and the dragon wins.")
+  }
+}
+
+fun main() {
+  var num1 = 8
+  var num2 = 9
+  // Write your code below
+  
+  if (num1 % 2 == 0) {
+    println("$num1 is even.")
+  }
+
+  if (num2 % 2 != 0) {
+    println("$num2 is odd.")
+  }
+}
+fun main() {
+  var rewardsPoints = 17
+  var memberType: String
+  // Write your code below
+
+  if (rewardsPoints >= 50) {
+    memberType = "Platinum"
+  } else if (rewardsPoints >= 25) {
+    memberType = "Gold"
+  } else if (rewardsPoints >= 10) {
+    memberType = "Silver"
+  } else {
+    memberType = "Bronze"
+  }
+  println("You are a $memberType type member.")
+} 
+
+fun main() {
+  var a = true
+  var b = false
+  var c = true
+  var d = false
+
+  if (a || b) {
+    println("Hoorah!")
+  }
+  
+  // This expression could also use ||
+  if (!b && c) {
+    println("Woohoo!")
+  }
+
+  if (a || d) {
+    println("Yay!")
+  }
+
+  if (!(!d && b)) {
+    println("Wow!")
+  }
+}
+
+fun main() {
+  var expressionValue: Boolean
+
+  if (!true && (false && true || !false)) {
+    println("Hello")
+  } else {
+    println("Goodbye")
+  }
+  // Write your code below
+  expressionValue = false
+  println(expressionValue)
+}
+
+fun main() {
+  var orbitsStar = true // Rule 1
+  var hydrostaticEquilibrium = true // Rule 2
+  var clearedOrbit = false // Rule 3
+  
+  // Write your code below
+  
+  if (orbitsStar && hydrostaticEquilibrium) {
+    if (clearedOrbit) {
+      println("Celestial body is a planet.")
+    } else {
+      println("Celestial body is a dwarf planet.")
+    }
+  } 
+}
+
+fun main() {
+  var season = "Fall"
+  // Write your code below
+
+  when (season) {
+    "Winter" -> println("Grow kale.")
+    "Spring" -> println("Grow lettuce.")
+    "Summer" -> println("Grow corn.")
+    "Fall" -> println("Grow pumpkins.")
+    else -> println("Not a valid season.")
+  }
+}
+
+fun main() {
+  var sHU = 17000
+  var pungency: String
+
+  // Write your code below
+  
+  if (sHU in 0..699) {
+    pungency = "very mild"
+  } else if (sHU in 700..2999) {
+    pungency = "mild"
+  } else if (sHU in 3000..24999) {
+    pungency = "moderate"
+  } else if (sHU in 25000..69999) {
+    pungency = "high"
+  } else {
+    pungency = "very high"
+  }
+
+  println("A pepper with $sHU Scoville Heat Units has a $pungency pungency.")
+}
+
+LISTS
+fun main() {
+  // Write your code below 
+  
+  var waterSports = listOf("Wind Surfing", "Sailing", "Swimming", "Jet Skiing", "Water Skiing")
+  println(waterSports)
+}
+
+fun main() {
+  // Write your code below 🏃‍♀️
+  var unitedStatesMarathons = listOf("Boston Marathon", "Bank of America Chicago Marathon", "TCS NYC Marathon", "Marine Corps Marathon")
+
+  println(unitedStatesMarathons[1])
+}
+
+fun main() {
+  // Write your code below 
+  
+  var openBroadwayShows = mutableListOf("The Lion King", "Chicago", "The Cher Show", "Les Miserables")
+  openBroadwayShows[2] = "Wicked"
+  println(openBroadwayShows)
+}
+fun main() {
+  // Write your code below 
+
+  var fruitTrees = mutableListOf("Apple", "Plum", "Pear", "Cherry")
+
+  println("I am growing ${fruitTrees.size} different types of fruit in my garden.")
+}
+
+fun main() {
+
+  val planets = mutableListOf("Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto")
+
+  // Write your code below 
+  
+  planets.remove("Pluto")
+  planets.add("Earth")
+  println(planets.random())
+}
+
+SETS
+fun main() {
+  // Write your code below 
+
+ var obsoleteTech = setOf("Rolodex", "Phonograph", "Videocassette recorder", "Video projector", "Rolodex")
+ println(obsoleteTech)
+}
+
+fun main() {
+  // Write your code below 
+  var islandsOfHawaii = setOf("Maui", "Lanai", "Oahu", "Kauai")
+  println(islandsOfHawaii.elementAt(2))
+  println(islandsOfHawaii.elementAtOrNull(6)) 
+}
+
+fun main() {
+  // Write your code below 
+
+  var apolloLandingSites = mutableSetOf("Mare Tranquillitatis", "Fra Mauro", "Hadley/Apennines", "Descartes", "Taurus-Littrow", "Oceanus Procellarum")
+  println(apolloLandingSites)
+}
+
+fun main() {
+
+  var uniqueParticipants = mutableSetOf<String>() 
+  var participants = listOf("elePHPant", "Gopher", "Lenny", "Moby Dock", "Codey", "Gopher")
+  // Write your code below 🎤
+  uniqueParticipants.addAll(participants)
+  println("The talent show has ${uniqueParticipants.size} unique participants.")
+  uniqueParticipants.clear()
+  println(uniqueParticipants)
+}
+
+fun main() {
+  // Write your code below 
+  var testGrades = mutableSetOf(65, 50, 72, 80, 53, 84)
+  var sum = testGrades.sum()
+  var numStudents = testGrades.size
+  var average = sum / numStudents
+  if (average < 65) {
+    println("Failed") 
+  } else {
+    println("Passed")
+  }
+}
+
+MAPS
+fun main() {
+  // Write your code below 
+
+  var codeysMap = mapOf("valley" to "scorpions", "creek" to "snakes", "forest" to "bears")
+
+  println(codeysMap)
+}
+
+fun main() {
+  var uniqueTransport = mapOf("India" to "Tuktuk", "Egypt" to "Felucca", "Peru" to "Totora Boat", "Hong Kong" to "Junk Boat")
+
+  // Write your code below 
+
+  println("A unique mode of transportation that exists in Peru is ${uniqueTransport["Peru"]}.")
+  println(uniqueTransport.keys)
+  println(uniqueTransport.values)
+}
+
+fun main() {
+  // Write your code below 
+
+  var tvShows = mutableMapOf("The Big Bang Theory" to 278, "Modern Family" to 250, "Bewitched" to 254, "That '70s Show" to 200)
+
+  tvShows["The Big Bang Theory"] = 279
+  println(tvShows)
+}
+
+fun main() {
+  // Write your code below 
+
+  var momaPaintings = mutableMapOf("Les Demoiselles d'avignon" to "Pablo Picasso", "The Starry Night" to "Vincent Van Gogh", "Mona Lisa" to "Leonardo Da Vinci", "The Persistance of Memory" to "Salvador Dali")
+
+  if (!momaPaintings.containsValue("Claude Monet")) {
+    // Write your code for Step 1 here 
+    momaPaintings.put("Water Lillies", "Claude Monet")
+  }
+    // Write your code for Step 2 here
+  momaPaintings.remove("Mona Lisa")
+  println(momaPaintings)
+}
+
+LOOPS
+fun main() {
+  // Write your code below
+  for(i in 1..5){
+    println("Hello, Codey!")
+    println("i = $i")
+  }
+}
+
+fun main() {
+  println("-- 1st for loop output --")
+  // Write your code below
+  for (i in 10 downTo 1) {
+    println("i = $i")
+  }
+  println("\n-- 2nd for loop output --")
+  // Write your code below
+  for (j in 1 until 10) {
+    println("j = $j")
+  }
+  println("\n-- 3rd for loop output --")
+  // Write your code below
+  for (k in 1..10 step 2) {
+    println("k = $k")
+  }
+}
+
+fun main() {
+  val mySchedule = listOf("Eat Breakfast", "Clean Up", "Work", "Eat Lunch",  "Clean Up", "Work", "Eat Dinner", "Clean Up")
+ 
+  val myTasks = setOf("Eat Breakfast", "Clean Up", "Work", "Eat Lunch",  "Clean Up", "Work", "Eat Dinner", "Clean Up")
+
+  println("-- mySchedule Output --")
+  // Write your code below
+  for (task in mySchedule) {
+    println(task)
+  }
+  println("\n-- myTasks Output --")
+  // Write your code below
+  for ((taskIndex, task) in myTasks.withIndex()) {
+    println("$taskIndex: $task")
+  }
+}
+
+fun main() {
+  val favoriteColors = mapOf("Jesse" to "Violet", "Megan" to "Red", "Tamala" to "Blue", "Jordan" to "Pink")
+  
+  println("\n-- Key: Value Output --")
+  // Write your code below
+  for (favoriteEntry in favoriteColors) {
+    println("${favoriteEntry.key}: ${favoriteEntry.value}")
+  }
+  println("\n-- Only Values Output --")
+  // Write your code below
+  for (color in favoriteColors.values) {
+    println(color)
+  }
+}
+
+fun main() {
+  var counter = 0
+  var index = 0
+  val schoolGrades = listOf("Kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th")
+
+  println("-- counter Output --")
+  // Write your code below
+  while (counter < 5) {
+    println(counter)
+    counter +=1
+  }
+  println("\n-- Elementary School Grades --")
+  // Write your code below
+  while (schoolGrades[index] != "6th") {
+    println(schoolGrades[index])
+    index++
+  }
+}
+
+fun main() {
+  var index = 0
+  val celsiusTemps = listOf(0.0, 87.0, 16.0, 33.0, 100.0, 65.0)
+  val fahr_ratio = 1.8
+  var fahr: Double
+
+  println("-- Celsius to Fahrenheit --")
+  // Write your code below
+  do {
+    fahr = celsiusTemps[index] * fahr_ratio + 32.0
+    println("${celsiusTemps[index]}C = ${fahr}F")
+    index ++
+  } while (fahr != 212.0)
+}
+
+fun main() {
+  // Write your code below
+  for (i in 1..6) {
+    for (j in 'A'..'F') {
+      print("$j$i ")
+    }
+    println()
+  }
+}
+
+fun main() {
+  val rooms = listOf("Kitchen", "Living Room", "Basement", "Bathroom")
+
+  println("-- Room Search --")
+  for (room in rooms) {
+    print("$room: ")
+    // Write your code below
+    if (room == "Living Room") {
+      println("Found It!")
+      break
+    }
+    println("Found Nothing.")
+  }
+
+  println("\n-- Divide By Zero --")
+  for (number in 12 downTo -12 step 4) {
+    // Write your code below
+    if (number == 0) {
+      continue
+    }
+    println("120/number = ${120/number}")
+  }
+}
+
+
+fun main() {
+  // Write your code below
+  grid@ for (i in 1..6) {
+    for (j in 'A'..'F') {
+      // Write your code below
+      if (j == 'C') {
+        continue@grid
+      }
+      print("$j$i ")
+    }
+    println()
+  }
+}
+
+FUNCTIONS
+// Write your code below
+fun smores() {
+  println("Roast a marshmallow.")
+  println("Place marshmallow on a graham cracker.")
+  println("Place chocolate on marshmallow.")
+  println("Put a new graham cracker on chocolate.")
+  println("Enjoy!")
+}
+fun main() {
+  // Write more code below
+  smores() 
+}
+
+
+// Write your code below
+fun getSpeed(distance: Int, time: Int) {
+  var speed = distance / time
+  println("$speed meters per second")
+}
+
+fun main() {
+  // Write more code below
+  getSpeed(10, 3)
+}
+
+// Write your code below
+fun getPrice(price: Double, couponCode: String = "None") {
+  var finalPrice: Double
+
+  if (couponCode == "save15") {
+    finalPrice = price * .85
+  } else {
+    finalPrice = price
+  }
+ 
+ println("The total price is $finalPrice.")
+}
+
+fun main() {
+  // Write more code below
+  getPrice(price = 48.0, couponCode = "save15")
+}
+
+// Write your code below
+fun ozToTsp(oz: Double): Double {
+  var tsp = oz * 6
+  return tsp
+}
+
+fun main() {
+  // Write more code below
+  var tspNeeded = ozToTsp(.75)
+  println("You will need $tspNeeded tsp of vanilla extract for this recipe.")
+}
+
+// Write your code below
+fun pyramidVolume(l: Int, w: Int, h: Int) = (l * w * h) / 3
+
+fun main() {
+  var length = 5
+  var width = 8
+  var height = 14
+
+  // Write more code below
+  var volume = pyramidVolume(length, width, height)
+  println("The volume of this pyramid is $volume.")
+}
+
+fun main() {
+  // Write your code below
+  
+  // anonymous function 
+  var area = fun(base: Int, height: Int): Int {
+    return (base * height) / 2
+  }
+  println(area(15, 19))
+
+  // lambda expression
+  var perimeter = {side1: Int, side2: Int -> (side1 + side2) * 2}
+  println(perimeter(15, 24))
+
+}
+
+CLASSES
+class Book {
+  val pages = 320
+  val title = "Harry Potter and the Sorcerer's Stone"
+  val author = "J.K. Rowling"
+}
+// Write your code above 
+fun main() { 
+  
+}
+
+class Building {
+  val yearBuilt = 2016
+  val height = 400 // Feet
+  val type = "Limestone"
+}
+
+fun main() {
+  // Write your code below 
+  var residentialBuilding = Building()
+  println(residentialBuilding.yearBuilt) 
+  println(residentialBuilding.height)
+  println(residentialBuilding.type)
+}
+
+
+// Write your class below 
+class Person(val name: String, val age: Int, val favoriteColor: String)
+
+fun main() {
+  // Create your instances below 
+
+  val me = Person("Maggie", 26, "Green")
+  val myFriend = Person("Jose", 25, "Red")
+
+  println("${me.name} is ${me.age} years old and my favorite color is ${me.favoriteColor}.")
+
+  println("${myFriend.name} is ${myFriend.age} years old and their favorite color is ${myFriend.favoriteColor}.")
+}
+
+class Employee(val firstName: String, val lastName: String, val yearsWorked: Int) {
+  // Write your code below 
+  val fullName = "$firstName $lastName"
+
+  init {
+    if (yearsWorked > 1) {
+      println("$fullName is eligible for a raise!")
+    } else {
+      println("$fullName is not eligible for a raise just yet.")
+    } 
+  }
+} 
+
+fun main() {
+  // Create an instance below 
+  val projectManager = Employee("Maria", "Gonzalez", 2)
+}
+
+class Dog(val name: String, val breed: String, val competitionsParticipated: List<String>) {
+  
+  init {
+    for (comp in competitionsParticipated) {
+      println("$name participated in $comp.")
+    }
+  }
+
+  // Write your function below 
+  fun speak() {
+   println("$name says: Woof!")
+  }
+}
+
+fun main() {
+  // Write your instance below 
+  var maxie = Dog("Maxie", "Poodle", listOf("Westminster Kennel Club Dog Show", "AKC National Championship"))
+  maxie.speak()
+}
+
+class Congratulations(val name: String) {
+
+  init {
+    println("Dear $name,")
+  }
+
+  fun message() {
+    println("Thank you for embarking on this journey with me. I couldn't have gotten through the treacherous waters of Conditional Creek or hiked up the Looping mountains without your help. You now have the fundamental knowledge to go on and continue your Kotlin journey in the world of android application, web development or more. The world is yours. Good luck! ")
+  }
+
+  fun signOut() {
+    println("With ♥️ , Codey and the Codecademy Team.")
+  }
+} 
+
+fun main() {
+  println("Please enter your name...")
+  var learnerName = readLine()
+  var toLearner = Congratulations(learnerName.toString())
+  toLearner.message()
+  toLearner.signOut()
+}
+
+
+
